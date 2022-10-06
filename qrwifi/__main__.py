@@ -38,7 +38,7 @@ if sys.platform == "darwin":
 
         password = (
             subprocess.check_output(
-                "sudo security find-generic-password -l"
+                "security find-generic-password -l"
                 f"{ssid} -D 'AirPort network password' -w",
                 shell=True,
             )
