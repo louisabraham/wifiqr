@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "wifiqr"
+name = "qrwifi"
 version = "0.1.0"
 description = ""
 authors = ["Louis Abraham <louis.abraham@yahoo.fr>"]
@@ -10,7 +10,7 @@ python = "^3.8"
 qrcode = "^7.3.1"
 
 [tool.poetry.scripts]
-wifiqr = 'wifiqr.__main__:main'
+qrwifi = 'qrwifi.__main__:main'
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.16.0"
